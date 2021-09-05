@@ -1,0 +1,17 @@
+{
+    "image1": {
+        "data": "hwQgACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAA8CIiDwAAAAAAAAAAAAAAAC8iIvIAAAAAAAAAAAAAAAAvIiLyAAAAAAAAAAAAAADw/////////////w8AAAAA8JEZmZGZ8ZmZ+SIPAAAAAPCZmZmZmfmZmfkiDwAAAADwmZmZmZn5//////////8A8JEhkVlV8ZmZmZkv8hLyAPCZEpJZX/mRmVkZL/Ii8gDwmSGRWV/5mfmfmS/yEvIA8JGZmVlf8Zkfn5kv8iLyAPCZmVVZX/mRLy8Z/////wDwmZlVWV/5mR+fmf////8A8JGZmVlf8Zkfn5kv8iLyAPCZEpJZX/mR+X8ZL/IS8gDwmSGRWV/5mZmZmS/yIvIA8JESkllV8ZmZmZkv8hLyAPCZmZmZmfn//////////wDwmZmZmZn5mZn5Ig8AAAAA8JEZmZGZ8ZmZ+SIPAAAAAPD/////////////DwAAAAAALyIi8gAAAAAAAAAAAAAAAC8iIvIAAAAAAAAAAAAAAADwIiIPAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Ai"
+    },
+    "image2": {
+        "data": "hwQNABAAAAAA8M//APDuAAD/z///7+QA8P/P/+T//wDw//y/Qb9n//////9Pfmf/////7kR+Zw//z+/uRH5nD//M7/9Pfmf/8P//v0G/Z//w///85P//AAD/z/z/7+QAAMDM/wDw7gAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "player"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}
