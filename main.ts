@@ -9,19 +9,19 @@ pause(5000)
 let a = 100
 let b = 0
 let c = 1
-let x = randint(b, a + 1)
+let x = randint(b, a)
 Ai.say(x)
 controller.up.onEvent(ControllerButtonEvent.Pressed, function on_event_pressed() {
     
     a = x - 1
-    x = randint(b, a + 1)
+    x = randint(b, a)
     Ai.say(x)
     c = c + 1
 })
 controller.down.onEvent(ControllerButtonEvent.Pressed, function on_event_pressed1() {
     
     b = x + 1
-    x = randint(b, a + 1)
+    x = randint(b, a)
     Ai.say(x)
     c = c + 1
 })

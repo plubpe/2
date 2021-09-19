@@ -9,13 +9,13 @@ pause(5000)
 a = 100
 b = 0
 c = 1
-x = randint(b, a+1)
+x = randint(b, a)
 Ai.say(x)
 
 def on_event_pressed():
     global a,b,c,x
     a=x-1
-    x = randint(b, a+1)
+    x = randint(b, a)
     Ai.say(x)
     c=c+1
 controller.up.on_event(ControllerButtonEvent.PRESSED, on_event_pressed)
@@ -23,7 +23,7 @@ controller.up.on_event(ControllerButtonEvent.PRESSED, on_event_pressed)
 def on_event_pressed1():
     global a,b,c,x
     b=x+1
-    x = randint(b, a+1)
+    x = randint(b, a)
     Ai.say(x)
     c=c+1
 controller.down.on_event(ControllerButtonEvent.PRESSED, on_event_pressed1)
